@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10vmin;
+}
+label {
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.btnContainer {
+	display: flex;
+	justify-content: flex-end;
+	width: 75%;
+}
+.raspuns {
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 5vmin;
+	padding: 2vmin;
+}
+.error {
+	color: red;
+	border: 2px solid red;
+}
