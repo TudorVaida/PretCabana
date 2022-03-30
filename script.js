@@ -34,10 +34,10 @@ btnCalc.addEventListener("click", function () {
 		(inputPret.value / arr.reduce((acc, elem) => acc + Number(elem), 0)) *
 		inputNrNopti.value;
 	const html = `
-    <div class="raspuns">Pret pe noapte: ${Math.round(
+    <div class="raspuns">Pret de persoana pe noapte: ${Math.round(
 			rezultatPeNoapte
 		)} lei</div>
-    <div class="raspuns">Pret pe intregul sejur: ${Math.round(
+    <div class="raspuns">Pret de persoana pe intregul sejur: ${Math.round(
 			rezultatT
 		)} lei</div>`;
 	newDivMassage.insertAdjacentHTML("afterend", html);
